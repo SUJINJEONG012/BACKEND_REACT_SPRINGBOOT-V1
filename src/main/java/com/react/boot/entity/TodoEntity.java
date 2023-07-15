@@ -23,7 +23,7 @@ public class TodoEntity {
 	@Id
 	@GeneratedValue(generator="system-uuid")
 	@GenericGenerator(name="system-uuid", strategy="uuid")
-	private String id; //오브젝트의 아이디
+	private String id; // 오브젝트의 아이디
 	private String userId; //생선한 유저의 아이디
 	private String title; // 타이틀 
 	private boolean done; // true 
